@@ -1,5 +1,5 @@
 <script setup>
-    import TextWrapper from './components/textWrapper.vue';
+    import TextWrapper from './components/TextWrapper.vue';
     import MovingTextWrapper from './components/MovingTextWrapper.vue';
     import GridWrapper from './components/GridWrapper.vue';
     import ContentWrapper from './components/ContentWrapper.vue';
