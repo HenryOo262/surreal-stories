@@ -30,7 +30,7 @@
     .movingTextWrapper{
         position: absolute;
         text-align: center;
-        font-size: medium;
+        font-size: 14px;
         letter-spacing: 5px;
         padding: 20px;
         transform: translate3d(-100px,0,0);
@@ -41,6 +41,12 @@
         transition-duration: 0.6s;
         transition-timing-function: ease-in;
         opacity: 0;
+    }
+
+    @media screen and (max-width:768px) {
+        .movingTextWrapper {
+            font-size: 12px;
+        }
     }
 
     .movingTextWrapperFade{

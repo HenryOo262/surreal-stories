@@ -28,3 +28,5 @@ const router = createRouter({
 })
 
 createApp(App).use(router).mount('#app')
+
+console.log('App Initiated')

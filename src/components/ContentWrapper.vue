@@ -20,4 +20,11 @@
         place-items: center;
         gap: 50px;
     }
+
+    
+    @media screen and (max-width: 768px) {  
+        .contentWrapper {
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
 </style>

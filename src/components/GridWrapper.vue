@@ -13,7 +13,7 @@
 </script>
 
 <style scoped>
-    .gridWrapper{
+    .gridWrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
